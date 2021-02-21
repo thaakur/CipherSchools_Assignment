@@ -34,5 +34,8 @@ int main()
     root->left->left = new Node(40); 
     root->left->right = new Node(50); 
 
-    isBST(root); 
+    if(isBST(root))
+        cout<<"YES";
+    else
+        cout<<"NO";
 }
